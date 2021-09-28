@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: yellow;
+}
+.add{
+    margin-left:  -50%;
+}
+.cDisplay{
+    
+    text-align: center;
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color: #000;
+    color: #fff;
+    padding: 40px 30px;
+    border-radius: 8px;
+}
+#colorS{
+    background: #000;
+    width: 50%;
+    display: inline-block;
+    padding: 20px 0;
+    transition: .9s;
+    
+    position: relative;
+}
+.btn-grp button{
+    padding: 8%;
+    margin: 1%;
+    border: none;
+    cursor: pointer;
+}
+#colorS button:nth-child(1){
+    background: red;
+
+}
+#colorS button:nth-child(2){
+    background: blue;
+}
+#colorS button:nth-child(3){
+    background: blueviolet;
+}
+#colorS button:nth-child(4){
+    background: chartreuse;
+}
+#colorS button:nth-child(5){
+    background: coral;
+}
+#click-btn{
+    color: #fff;
+    background: #000;
+    border: none;
+    border-radius: 0 6px 6px  0;
+    position: absolute;
+    right: -30px;
+    top: 50%;
+    transform: translate(-0%, -50%);
+    font-size: 50px;
+    cursor: pointer;
+}
+.relode button{
+    padding: 5px 10px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+.magic button{
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+}
